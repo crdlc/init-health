@@ -1,0 +1,117 @@
+@import url("//fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&subset=latin%2Clatin-ext");
+html,
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  color: #545454;
+}
+.waiting,
+#endCard,
+.end {
+  background-color: #FFF;
+}
+.end .title,
+.waiting .title,
+.waiting .description,
+.waiting .joining-description {
+  color: #545454;
+}
+.toolbar .record,
+.toolbar .recordings {
+  display: none!important;
+}
+.waiting,
+.dialog,
+.end .title,
+.time-left,
+.stream-name,
+.chat-ui {
+  font-family: "Lato", Arial, sans-serif;
+}
+.waiting .logo {
+  background-image: url("https://www.inithealth.com/wp-content/uploads/2015/06/LogoPP.png");
+  width: 300px;
+  height: 90px;
+}
+b {
+  font-weight: 500;
+}
+select {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.card {
+  border: 0;
+  border-radius: 0;
+}
+.accept-next {
+  background-image: linear-gradient(to bottom, #7dba00 0, #7dba00 100%);
+  border: 0;
+  color: #FFF;
+  border-radius: 0;
+  box-shadow: none;
+}
+.accept-next .btn-default {
+  border: 2px solid white;
+  background-color: transparent;
+  color: #FFF;
+  padding: 8px 16px;
+  margin-left: 10px;
+}
+.add-appointment {
+  color: #7dba00;
+}
+.time-left .left-in-call {
+  font-weight: 600;
+  font-size: 14px;
+}
+.time-left,
+.toolbar .item,
+.stream-toolbar .item {
+  background-color: rgba(125, 186, 0, 0.8);
+  box-shadow: none;
+}
+.time-left {
+  background-color: rgba(125, 186, 0, 0.8);
+}
+.toolbar .item:hover,
+.stream-toolbar .item:hover {
+  background-color: #7dba00;
+  opacity: 1;
+}
+.stream-toolbar .item.strikethrough .icon:after {
+  background-color: #FFF;
+}
+[data-chat-visible="true"] .toolbar .item.chat .icon {
+  color: #FFF;
+}
+.chat-ui .header {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.chat-ui .item.yourself {
+  background-color: #7dba00;
+  color: #FFF;
+}
+.chat-ui .item.yourself .link,
+.chat-ui .item.yourself .link:hover,
+.chat-ui .item.yourself .link:active,
+.chat-ui .item.yourself .link:visited {
+  color: #FFF;
+}
+.stream-name {
+  left: 0;
+  bottom: 0;
+  border-radius: 0;
+  width: 100%;
+  max-width: 100%;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.stream:hover .stream-name,
+.stream[data-video-disabled=true] .stream-name {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
