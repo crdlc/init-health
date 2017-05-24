@@ -30,9 +30,9 @@ body {
   font-family: "Lato", Arial, sans-serif;
 }
 .waiting .logo {
-  background-image: url("https://www.inithealth.com/wp-content/uploads/2015/06/LogoPP.png");
+  background-image: url("http://www.asocespacr.com/images/osde.png");
   width: 300px;
-  height: 90px;
+  height: 81.6px;
 }
 b {
   font-weight: 500;
@@ -45,7 +45,7 @@ select {
   border-radius: 0;
 }
 .accept-next {
-  background-image: linear-gradient(to bottom, #7dba00 0, #7dba00 100%);
+  background-image: linear-gradient(to bottom, #0058ba 0, #0058ba 100%);
   border: 0;
   color: #FFF;
   border-radius: 0;
@@ -59,7 +59,7 @@ select {
   margin-left: 10px;
 }
 .add-appointment {
-  color: #7dba00;
+  color: #0058ba;
 }
 .time-left .left-in-call {
   font-weight: 600;
@@ -68,15 +68,15 @@ select {
 .time-left,
 .toolbar .item,
 .stream-toolbar .item {
-  background-color: rgba(125, 186, 0, 0.8);
+  background-color: rgba(0, 88, 186, 0.8);
   box-shadow: none;
 }
 .time-left {
-  background-color: rgba(125, 186, 0, 0.8);
+  background-color: rgba(0, 88, 186, 0.8);
 }
 .toolbar .item:hover,
 .stream-toolbar .item:hover {
-  background-color: #7dba00;
+  background-color: #0058ba;
   opacity: 1;
 }
 .stream-toolbar .item.strikethrough .icon:after {
@@ -89,7 +89,7 @@ select {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .chat-ui .item.yourself {
-  background-color: #7dba00;
+  background-color: #0058ba;
   color: #FFF;
 }
 .chat-ui .item.yourself .link,
